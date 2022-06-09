@@ -6,3 +6,5 @@
  
  Example:  
  `jklmControl.chat("This is an example.")`
+
+To go to the documentation, press [this link](https://github.com/kareemsaf/jklmControl/wiki).
