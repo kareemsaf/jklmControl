@@ -5,3 +5,5 @@
  
  Example:  
  `jklmControl.chat("This is an example.")`
+ 
+ You will need [the Keyboard module](https://pypi.org/project/keyboard/) and [the PyAutoGui module](https://pypi.org/project/PyAutoGUI/).
