@@ -58159,3 +58159,6 @@ def wlist(lets):
             word = wordlist[i]
             wordlist.remove(wordlist[i])
             return word
+def bot(lets):
+    "Types a word in the word box that has lets."
+    typein(wlist(lets))
