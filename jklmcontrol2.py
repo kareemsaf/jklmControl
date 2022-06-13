@@ -58152,11 +58152,12 @@ def typein(contents):
 
 def wlist(lets):
     "Gets word that has lets from word list."
-    for i in range(0, len(wordlist)):
-        if lets in wordlist[i]:
-            word = wordlist[i]
-            wordlist.remove(wordlist[i])
-            return word
+    for j in range(0, 2):
+        for i in range(0, len(wordlist)):
+            if lets in wordlist[i]:
+                word = wordlist[i]
+                wordlist.remove(wordlist[i])
+                return word
 def bot(lets):
     "Types a word in the word box that has lets."
     typein(wlist(lets))
